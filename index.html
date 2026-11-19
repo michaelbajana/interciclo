@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cloud Computing | Infraestructura y Plataformas</title>
+  <title>Inicio | Infraestructura y Plataformas</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -11,7 +11,8 @@
     <nav class="navbar">
       <span class="brand">Infraestructura &amp; Plataformas</span>
       <ul class="nav-links">
-        <li><a href="index.html" class="active">Cloud Computing</a></li>
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="cloud.html">Cloud Computing</a></li>
         <li><a href="remoto.html">Conexión Remota</a></li>
       </ul>
     </nav>
@@ -19,62 +20,26 @@
 
   <main>
     <section class="hero">
-      <h1>Cloud Computing y Tecnologías de Virtualización</h1>
-      <p>Fundamentos de computación en la nube, modelos de servicio y tecnologías de aislamiento de cargas de trabajo.</p>
+      <h1>Administración de Infraestructura y Plataformas Tecnológicas</h1>
+      <p>Selecciona una sección del menú superior o de las tarjetas inferiores para explorar los temas.</p>
     </section>
 
     <section class="grid">
-      <!-- Cloud Computing -->
       <article class="card">
-        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180'><rect width='400' height='180' fill='%230b1120'/><path d='M145 125h115a32 32 0 0 0 4-63.7A48 48 0 0 0 170 52a40 40 0 0 0-25 73z' fill='%2338bdf8' opacity='0.2' stroke='%2338bdf8' stroke-width='3'/><text x='200' y='103' fill='%23f1f5f9' font-family='sans-serif' font-size='16' font-weight='bold' text-anchor='middle'>CLOUD COMPUTING</text></svg>" alt="Diagrama de Cloud Computing">
         <div class="card-content">
-          <h2>Cloud Computing</h2>
-          <p>Modelo de prestación bajo demanda de recursos informáticos (servidores, almacenamiento, bases de datos, redes y software) a través de Internet, con escalabilidad elástica y pago por uso.</p>
+          <h2>1. Cloud Computing</h2>
+          <p>Conceptos e ilustraciones de Cloud Computing, SaaS, PaaS, IaaS, Virtualización y Docker.</p>
+          <br>
+          <a href="cloud.html" style="color: var(--primary); font-weight: bold; text-decoration: none;">Abrir sección →</a>
         </div>
       </article>
 
-      <!-- SaaS -->
       <article class="card">
-        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180'><rect width='400' height='180' fill='%230b1120'/><rect x='110' y='40' width='180' height='100' rx='10' fill='%23818cf8' opacity='0.2' stroke='%23818cf8' stroke-width='3'/><line x1='110' y1='65' x2='290' y2='65' stroke='%23818cf8' stroke-width='2'/><text x='200' y='110' fill='%23f1f5f9' font-family='sans-serif' font-size='18' font-weight='bold' text-anchor='middle'>SaaS</text></svg>" alt="Ilustración de SaaS">
         <div class="card-content">
-          <h2>SaaS (Software as a Service)</h2>
-          <p>Modelo donde las aplicaciones completas se alojan en la nube y el usuario accede a ellas mediante un navegador web o cliente ligero sin gestionar infraestructura ni instalaciones locales (ej. Google Workspace, Microsoft 365).</p>
-        </div>
-      </article>
-
-      <!-- PaaS -->
-      <article class="card">
-        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180'><rect width='400' height='180' fill='%230b1120'/><rect x='100' y='35' width='200' height='30' rx='6' fill='%2338bdf8' opacity='0.3' stroke='%2338bdf8' stroke-width='2'/><rect x='100' y='75' width='200' height='30' rx='6' fill='%23818cf8' opacity='0.3' stroke='%23818cf8' stroke-width='2'/><rect x='100' y='115' width='200' height='30' rx='6' fill='%2334d399' opacity='0.3' stroke='%2334d399' stroke-width='2'/><text x='200' y='95' fill='%23f1f5f9' font-family='sans-serif' font-size='16' font-weight='bold' text-anchor='middle'>PaaS (Runtime + Código)</text></svg>" alt="Ilustración de PaaS">
-        <div class="card-content">
-          <h2>PaaS (Platform as a Service)</h2>
-          <p>Entorno completo de desarrollo y despliegue en la nube que proporciona hardware, sistema operativo, motores de bases de datos y herramientas de ejecución para centrarse únicamente en programar (ej. Heroku, Google App Engine).</p>
-        </div>
-      </article>
-
-      <!-- IaaS -->
-      <article class="card">
-        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180'><rect width='400' height='180' fill='%230b1120'/><rect x='95' y='45' width='60' height='90' rx='6' fill='%2338bdf8' opacity='0.25' stroke='%2338bdf8' stroke-width='2'/><rect x='170' y='45' width='60' height='90' rx='6' fill='%2338bdf8' opacity='0.25' stroke='%2338bdf8' stroke-width='2'/><rect x='245' y='45' width='60' height='90' rx='6' fill='%2338bdf8' opacity='0.25' stroke='%2338bdf8' stroke-width='2'/><text x='200' y='96' fill='%23f1f5f9' font-family='sans-serif' font-size='18' font-weight='bold' text-anchor='middle'>IaaS</text></svg>" alt="Ilustración de IaaS">
-        <div class="card-content">
-          <h2>IaaS (Infrastructure as a Service)</h2>
-          <p>Suministro de recursos fundamentales de cómputo virtualizado, redes y almacenamiento en la nube. El administrador mantiene el control total sobre los sistemas operativos y aplicaciones desplegadas (ej. AWS EC2, Azure VMs).</p>
-        </div>
-      </article>
-
-      <!-- Virtualización -->
-      <article class="card">
-        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180'><rect width='400' height='180' fill='%230b1120'/><rect x='80' y='115' width='240' height='30' rx='5' fill='%23475569'/><text x='200' y='135' fill='%23f1f5f9' font-family='sans-serif' font-size='12' text-anchor='middle'>Hardware Físico + Hipervisor</text><rect x='85' y='40' width='105' height='60' rx='6' fill='%23818cf8' opacity='0.3' stroke='%23818cf8' stroke-width='2'/><text x='137' y='75' fill='%23f1f5f9' font-family='sans-serif' font-size='13' font-weight='bold' text-anchor='middle'>VM 1 (Linux)</text><rect x='210' y='40' width='105' height='60' rx='6' fill='%2338bdf8' opacity='0.3' stroke='%2338bdf8' stroke-width='2'/><text x='262' y='75' fill='%23f1f5f9' font-family='sans-serif' font-size='13' font-weight='bold' text-anchor='middle'>VM 2 (Win)</text></svg>" alt="Diagrama de Virtualización">
-        <div class="card-content">
-          <h2>Virtualización</h2>
-          <p>Tecnología que permite dividir un servidor físico en múltiples máquinas virtuales (VM) independientes mediante un hipervisor, optimizando el aprovechamiento del hardware y aislando cada sistema operativo.</p>
-        </div>
-      </article>
-
-      <!-- Docker -->
-      <article class="card">
-        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180'><rect width='400' height='180' fill='%230b1120'/><rect x='115' y='50' width='45' height='35' rx='4' fill='%2338bdf8'/><rect x='168' y='50' width='45' height='35' rx='4' fill='%2338bdf8'/><rect x='221' y='50' width='45' height='35' rx='4' fill='%2338bdf8'/><rect x='140' y='95' width='120' height='35' rx='8' fill='%230284c7' stroke='%2338bdf8' stroke-width='2'/><text x='200' y='117' fill='%23ffffff' font-family='sans-serif' font-size='14' font-weight='bold' text-anchor='middle'>DOCKER</text></svg>" alt="Diagrama de Contenedores Docker">
-        <div class="card-content">
-          <h2>Docker</h2>
-          <p>Plataforma de código abierto que empaqueta aplicaciones y todas sus dependencias dentro de contenedores ligeros y portables que comparten el kernel del sistema anfitrión, garantizando ejecución uniforme en cualquier entorno.</p>
+          <h2>2. Conexión Remota</h2>
+          <p>Conceptos e ilustraciones de herramientas de soporte y acceso remoto: AnyDesk y TeamViewer.</p>
+          <br>
+          <a href="remoto.html" style="color: var(--primary); font-weight: bold; text-decoration: none;">Abrir sección →</a>
         </div>
       </article>
     </section>
